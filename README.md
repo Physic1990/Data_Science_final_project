@@ -51,3 +51,13 @@ Future Prediction File: https://docs.google.com/document/d/1xGWVsQfEX3vkTSg2j9_d
 **What is it?**: GPR is a machine learning technique for regression tasks that models the distribution over functions directly.
 
 **How did we use it?**: We used GPR from the scikit-learn library to train and forecast future values of the time series data. GPR is a flexible and adaptable model capable of capturing complex nonlinear relationships in the data without assuming a specific functional form.
+
+## Understanding of 3 Models in Simple English
+
+Imagine you're trying to predict how the temperature will change over time.
+
+**ARIMA**: ARIMA, like a skilled weather forecaster, looks at past temperature data and predicts future temperatures by considering how they've changed in the past. It assumes that these changes follow a simple pattern and are influenced by factors like seasonality and trends.
+
+**SARIMA**: SARIMA works similarly but also considers seasonal changes, like how temperatures might rise in summer and fall in winter. It's like adding an extra layer of understanding for different times of the year.
+
+**Gaussian Process Regression (GPR)**: Now, Gaussian Process Regression is a bit different. Instead of relying on predefined patterns, it's like a flexible thinker that can adapt to any situation. It doesn't assume that temperature changes follow a specific pattern, allowing it to capture more complex relationships and make predictions based on the overall distribution of temperature data. So, while ARIMA and SARIMA are like reliable forecasters sticking to known patterns, Gaussian Process Regression is like an adaptable thinker, ready to handle any curveball the data throws its way.
